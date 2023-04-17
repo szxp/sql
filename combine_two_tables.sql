@@ -20,11 +20,6 @@ create table Address (
     primary key (addressId)
 );
 
---alter table Address
---    add constraint FK_Address_personId
---    foreign key (personId)
---    references Person;
-
 insert into Person (personId, lastName, firstName) values
 (1, 'Wang', 'Allen'),
 (2, 'Alice', 'Bob');
