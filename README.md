@@ -1,1 +1,1 @@
-# leetcode-sql
+# sql
