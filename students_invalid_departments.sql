@@ -1,8 +1,8 @@
 use master;
-drop database if exists x_Departments_invalid_departments;
-create database x_Departments_invalid_departments;
+drop database if exists x_departments_invalid_departments;
+create database x_departments_invalid_departments;
 go
-use x_Departments_invalid_departments;
+use x_departments_invalid_departments;
 go
 
 create table Departments (
